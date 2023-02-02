@@ -1,6 +1,6 @@
 import GLPK from "./glpk.js/dist/index.js";
 
-async function main(sol_id, lp_id) {
+export async function main(sol_id, lp_id) {
     const glpk = await GLPK();
 
     function solution_summary(res, sol_id) {
